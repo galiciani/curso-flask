@@ -9,3 +9,7 @@ def index():
 @app.route('/contato.html')
 def contato():
     return render_template('contato.html')
+
+@app.route('/login.html')
+def contato():
+    return render_template('login.html')
